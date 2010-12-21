@@ -28,7 +28,7 @@
 
 #include <sys/sem.h>    /* semaphore functions and structs. */
 
-#define MC_SHMSIZE  524288  // 512KB should be ample.
+#define MC_SHMSIZE  1048576 /* handles continuums of up to 235 nodes */
 
 #ifdef __cplusplus /* If this is a C++ compiler, use C linkage */
 extern "C" {
